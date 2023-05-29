@@ -1,0 +1,13 @@
+.slider-one-item {
+  &:hover {
+
+    .icon {
+      content: url("../../../public/image/icons/stress.svg");
+    }
+
+    .title,
+    .desc {
+      color: white;
+    }
+  }
+}
