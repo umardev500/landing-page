@@ -16,8 +16,8 @@ export const SliderOne: React.FC = () => {
           prevEl: '#sliderOnePrev',
           nextEl: '#sliderOneNext',
         }}
-        spaceBetween={50}
-        slidesPerView={2.5}
+        spaceBetween={20}
+        slidesPerView={2.3}
       >
         <SwiperSlide>
           <SliderOneListing />
