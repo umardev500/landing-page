@@ -7,7 +7,7 @@ export const HomeSectionOne: React.FC = () => {
         {/* heading */}
         <div className="space-y-4">
           <h3 className="text-center text-5xl text-gray-700">Welcome to Merriam Therapy</h3>
-          <p className="text-center text-xl text-gray-500">
+          <p className="text-center text-xl text-text">
             We are committed to providing a supportive virtual environment where you can feel heard,
             <br />
             understood, and empowered to make positive changes in your life.
@@ -27,7 +27,7 @@ export const HomeSectionOne: React.FC = () => {
           </div>
           <div className="flex-1 p-4 lg:py-8 lg:pl-14 lg:pr-8">
             <h3 className="text-5xl text-gray-700">Ellen S., LSWAIC</h3>
-            <p className="mt-6 text-lg text-gray-500">
+            <p className="mt-6 text-lg text-text">
               I am a Licensed Social Work Associate Independent Clinical in Washington (license#
               SC60868009). I hold a Master&apos;s of Social Work from the University of Washington,
               Seattle. <br />

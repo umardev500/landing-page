@@ -1,4 +1,10 @@
-import { Header, Hero, HomeSectionOne, HomeSectionTwo } from '@/components/organisms'
+import {
+  Header,
+  Hero,
+  HomeSectionOne,
+  HomeSectionThree,
+  HomeSectionTwo,
+} from '@/components/organisms'
 
 export default function Home() {
   return (
@@ -8,6 +14,7 @@ export default function Home() {
         <Hero />
         <HomeSectionOne />
         <HomeSectionTwo />
+        <HomeSectionThree />
       </main>
     </>
   )
