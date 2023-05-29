@@ -8,7 +8,7 @@ import { LangDropdown } from '../lang'
 
 export const HeaderRight: React.FC = () => {
   return (
-    <ul className="flex items-center lg:gap-2">
+    <ul className="hidden items-center lg:flex lg:gap-2">
       <li>
         <Link href={'/'} className="whitespace-nowrap px-4 py-2 text-gray-500 outline-none">
           Home

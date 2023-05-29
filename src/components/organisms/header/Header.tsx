@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
       {/* container */}
       <div className="container mx-auto">
         {/* header inner */}
-        <div className="flex items-center lg:justify-between lg:py-3">
+        <div className="flex items-center py-2 lg:justify-between lg:py-3">
           <HeaderLeft />
           <HeaderRight />
         </div>
