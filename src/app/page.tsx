@@ -1,10 +1,12 @@
-import { Header } from '@/components/organisms'
+import { Header, Hero } from '@/components/organisms'
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main></main>
+      <main>
+        <Hero />
+      </main>
     </>
   )
 }
