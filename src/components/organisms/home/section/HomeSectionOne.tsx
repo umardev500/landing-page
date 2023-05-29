@@ -15,7 +15,7 @@ export const HomeSectionOne: React.FC = () => {
         </div>
 
         {/* content */}
-        <div className="mt-28 flex flex-wrap rounded-[32px] bg-primaryLight">
+        <div className="mt-28 flex flex-wrap overflow-clip rounded-[32px] bg-primaryLight">
           <div className="">
             <picture>
               <img
