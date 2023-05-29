@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
         </div>
         <div className="flex justify-center">
           <picture>
-            <img src="images/cover.png" alt="" />
+            <img src="image/cover.png" alt="cover" />
           </picture>
         </div>
       </div>
