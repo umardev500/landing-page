@@ -10,7 +10,7 @@ export const SliderOneListing: React.FC = () => {
       </div>
       <div className="mt-10">
         <h3 className="title text-3xl text-gray-700">Depression Treatment</h3>
-        <p className="desc mt-5 text-gray-500">
+        <p className="desc mt-5 text-xl text-gray-500">
           Depression can be challenging to manage alone. We offer a collaborative and supportive
           approach to help you regain control of your mental health
         </p>

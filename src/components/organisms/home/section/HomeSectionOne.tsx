@@ -7,7 +7,7 @@ export const HomeSectionOne: React.FC = () => {
         {/* heading */}
         <div className="space-y-4">
           <h3 className="text-center text-5xl text-gray-700">Welcome to Merriam Therapy</h3>
-          <p className="text-center text-gray-500">
+          <p className="text-center text-xl text-gray-500">
             We are committed to providing a supportive virtual environment where you can feel heard,
             <br />
             understood, and empowered to make positive changes in your life.

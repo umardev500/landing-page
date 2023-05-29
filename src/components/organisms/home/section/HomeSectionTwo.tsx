@@ -12,7 +12,7 @@ export const HomeSectionTwo: React.FC = () => {
         <div className="flex w-full items-start justify-between space-y-4">
           <div className="max-w-[773px] pt-2.5">
             <h3 className="text-5xl text-gray-700">Services</h3>
-            <p className="mt-6 text-lg text-gray-500">
+            <p className="mt-6 text-xl text-gray-500">
               At Merriam Therapy, we are dedicated to providing inclusive individual therapy
               services that honor and embrace the diverse backgrounds of our clients. We are
               committed to creating a safe, supportive, and culturally sensitive space where you can
