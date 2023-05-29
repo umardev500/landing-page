@@ -14,13 +14,13 @@ export const LangDropdown: React.FC = () => {
       leaveFrom="opacity-100 translate-y-0"
       leaveTo="opacity-0 translate-y-1"
     >
-      <Popover.Panel className="absolute right-0 mt-2 min-w-[150px] rounded-md bg-white shadow">
+      <Popover.Panel className="absolute right-0 mt-2 min-w-[150px] overflow-clip rounded-md bg-white shadow">
         <div className="flex flex-col">
-          <button className="px-4 py-1.5 text-left text-gray-700 hover:bg-gray-100">English</button>
-          <button className="px-4 py-1.5 text-left text-gray-700 hover:bg-gray-100">
+          <button className="px-4 py-1.5 text-left text-gray-700 hover:bg-gray-50">English</button>
+          <button className="px-4 py-1.5 text-left text-gray-700 hover:bg-gray-50">
             Indonesia
           </button>
-          <button className="px-4 py-1.5 text-left text-gray-700 hover:bg-gray-100">Arabic</button>
+          <button className="px-4 py-1.5 text-left text-gray-700 hover:bg-gray-50">Arabic</button>
         </div>
       </Popover.Panel>
     </Transition>
