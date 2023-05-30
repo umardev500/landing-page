@@ -1,6 +1,7 @@
 import {
   Header,
   Hero,
+  HomeSectionFive,
   HomeSectionFour,
   HomeSectionOne,
   HomeSectionThree,
@@ -17,6 +18,7 @@ export default function Home() {
         <HomeSectionTwo />
         <HomeSectionThree />
         <HomeSectionFour />
+        <HomeSectionFive />
       </main>
     </>
   )
