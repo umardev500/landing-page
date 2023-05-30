@@ -38,7 +38,7 @@ export const SliderOne: React.FC = () => {
         slidesPerView={2.3}
       >
         {data.map((item, i) => (
-          <SwiperSlide key={i}>
+          <SwiperSlide key={i} style={{ height: 'unset' }}>
             <SliderOneListing {...item} />
           </SwiperSlide>
         ))}

@@ -10,7 +10,7 @@ interface Props extends SliderOneItem {}
 
 export const SliderOneListing: React.FC<Props> = ({ img, title, desc }) => {
   return (
-    <div className="slider-one-item cursor-pointer rounded-xl border border-primaryLight p-8 hover:bg-primaryLight">
+    <div className="slider-one-item h-full cursor-pointer rounded-xl border border-primaryLight p-8 hover:bg-primaryLight">
       <div>
         <picture>
           <img src={img} alt={title} className="icon fill-slate-200" />
