@@ -1,13 +1,28 @@
 'use client'
 
-import { SliderTwoListing } from '@/components/molecules'
-import React from 'react'
+import { SliderTwoListing, type SliderTwoItem } from '@/components/molecules'
+import React, { useState } from 'react'
 
 import { Navigation } from 'swiper'
 import 'swiper/css/bundle'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 export const SliderTwo: React.FC = () => {
+  const [data] = useState<SliderTwoItem[]>([
+    {
+      img: 'image/slider/slider.png',
+      title: 'Schizophrenia',
+    },
+    {
+      img: 'image/slider/slider-2.png',
+      title: 'Schizophrenia',
+    },
+    {
+      img: 'image/slider/slider-3.png',
+      title: 'Schizophrenia',
+    },
+  ])
+
   return (
     <div className="w-full">
       <Swiper
@@ -19,18 +34,11 @@ export const SliderTwo: React.FC = () => {
         spaceBetween={20}
         slidesPerView={2.8}
       >
-        <SwiperSlide>
-          <SliderTwoListing />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SliderTwoListing />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SliderTwoListing />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SliderTwoListing />
-        </SwiperSlide>
+        {data.map((item, i) => (
+          <SwiperSlide key={i}>
+            <SliderTwoListing {...item} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   )
