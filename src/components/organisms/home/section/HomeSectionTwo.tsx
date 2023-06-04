@@ -9,7 +9,7 @@ export const HomeSectionTwo: React.FC = () => {
     <section>
       <div className="container mx-auto mt-52">
         {/* heading */}
-        <div className="flex w-full items-start justify-between space-y-4">
+        <div data-aos="fade-left" className="flex w-full items-start justify-between space-y-4">
           <div className="max-w-[773px] pt-2.5">
             <h3 className="text-5xl text-gray-700">Services</h3>
             <p className="mt-6 text-xl leading-relaxed text-text">
@@ -38,7 +38,7 @@ export const HomeSectionTwo: React.FC = () => {
         </div>
 
         {/* slider */}
-        <div className="mt-10">
+        <div className="mt-10" data-aos="fade-right" data-aos-delay={100}>
           <SliderOne />
         </div>
       </div>
