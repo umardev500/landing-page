@@ -4,7 +4,7 @@ import { ArrowLongLeftIcon, ArrowLongRightIcon } from '@heroicons/react/24/outli
 
 export const HomeSectionFour: React.FC = () => {
   return (
-    <section>
+    <section className="blog pt-1">
       <div data-aos="fade-left" className="container mx-auto mt-52">
         {/* heading */}
         <div className="flex w-full items-start justify-between space-y-4">

@@ -6,7 +6,7 @@ import { SliderOne } from '../slider'
 
 export const HomeSectionTwo: React.FC = () => {
   return (
-    <section>
+    <section className="services pt-1">
       <div className="container mx-auto mt-52">
         {/* heading */}
         <div data-aos="fade-left" className="flex w-full items-start justify-between space-y-4">

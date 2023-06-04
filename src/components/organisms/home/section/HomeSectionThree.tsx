@@ -4,7 +4,7 @@ import React from 'react'
 
 export const HomeSectionThree: React.FC = () => {
   return (
-    <section>
+    <section className="resources pt-1">
       <div className="container mx-auto mt-52">
         {/* heading */}
         <div data-aos="fade-right" className="flex w-full items-start justify-between space-y-4">

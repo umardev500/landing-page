@@ -2,7 +2,7 @@ import React from 'react'
 
 export const HomeSectionOne: React.FC = () => {
   return (
-    <section>
+    <section className="about pt-2">
       <div className="container mx-auto mt-52">
         {/* heading */}
         <div data-aos="fade-left" className="space-y-4">
