@@ -11,10 +11,15 @@ interface Props extends SliderTwoItem {}
 
 export const SliderTwoListing: React.FC<Props> = ({ img, title }) => {
   return (
-    <div className="cursor-pointer rounded-xl">
+    <div className="cursor-pointer overflow-clip rounded-xl">
       <div>
         <picture>
-          <img src={img} alt={title} className="max-h-[400px] fill-slate-200" />
+          <img
+            src={img}
+            alt={title}
+            className="max-h-[400px] w-full fill-slate-200
+           object-cover"
+          />
         </picture>
       </div>
       <div className="mt-5">
