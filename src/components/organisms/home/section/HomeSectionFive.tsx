@@ -4,7 +4,7 @@ export const HomeSectionFive: React.FC = () => {
   return (
     <section>
       <div className="container mx-auto mt-52">
-        <div className="flex overflow-clip rounded-[32px] bg-primaryLight">
+        <div data-aos="fade-up" className="flex overflow-clip rounded-[32px] bg-primaryLight">
           <div>
             <picture>
               <img src="image/cover-2.png" alt="" />

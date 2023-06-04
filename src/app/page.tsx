@@ -1,3 +1,5 @@
+'use client'
+
 import {
   Footer,
   Header,
@@ -8,8 +10,15 @@ import {
   HomeSectionThree,
   HomeSectionTwo,
 } from '@/components/organisms'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
       <Header />
