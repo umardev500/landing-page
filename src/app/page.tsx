@@ -1,5 +1,6 @@
 'use client'
 
+import { ScrollToTop } from '@/components/atoms'
 import {
   Footer,
   Header,
@@ -31,6 +32,7 @@ export default function Home() {
         <HomeSectionFive />
       </main>
       <Footer />
+      <ScrollToTop />
     </>
   )
 }
