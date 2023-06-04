@@ -42,7 +42,7 @@ export const HeaderRight: React.FC = () => {
           Contact Us
         </Link>
       </li>
-      <li className="relative">
+      <li className="relative z-50">
         <Popover>
           {({ open }) => (
             <>
