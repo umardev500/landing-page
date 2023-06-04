@@ -5,7 +5,7 @@ export const HomeSectionOne: React.FC = () => {
     <section>
       <div className="container mx-auto mt-52">
         {/* heading */}
-        <div className="space-y-4">
+        <div data-aos="fade-left" className="space-y-4">
           <h3 className="text-center text-5xl text-gray-700">Welcome to Merriam Therapy</h3>
           <p className="text-center text-xl text-text">
             We are committed to providing a supportive virtual environment where you can feel heard,
@@ -15,7 +15,11 @@ export const HomeSectionOne: React.FC = () => {
         </div>
 
         {/* content */}
-        <div className="mt-28 flex flex-wrap overflow-clip rounded-[32px] bg-primaryLight">
+        <div
+          data-aos="fade-up"
+          data-aos-delay={200}
+          className="mt-28 flex flex-wrap overflow-clip rounded-[32px] bg-primaryLight"
+        >
           <div className="">
             <picture>
               <img
