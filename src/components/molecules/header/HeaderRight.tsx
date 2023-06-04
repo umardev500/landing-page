@@ -10,7 +10,10 @@ export const HeaderRight: React.FC = () => {
   return (
     <ul className="hidden items-center lg:flex lg:gap-2">
       <li>
-        <Link href={'/'} className="whitespace-nowrap px-4 py-2 text-xl text-gray-500 outline-none">
+        <Link
+          href={'/'}
+          className="whitespace-nowrap px-4 py-2 text-xl font-bold text-gray-500 outline-none"
+        >
           Home
         </Link>
       </li>
