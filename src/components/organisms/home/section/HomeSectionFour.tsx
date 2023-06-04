@@ -5,7 +5,7 @@ import { ArrowLongLeftIcon, ArrowLongRightIcon } from '@heroicons/react/24/outli
 export const HomeSectionFour: React.FC = () => {
   return (
     <section>
-      <div className="container mx-auto mt-52">
+      <div data-aos="fade-left" className="container mx-auto mt-52">
         {/* heading */}
         <div className="flex w-full items-start justify-between space-y-4">
           <div className="max-w-[773px] pt-2.5">
@@ -18,7 +18,7 @@ export const HomeSectionFour: React.FC = () => {
         </div>
         {/* end of heading */}
       </div>
-      <div className="mt-64 bg-primaryLight pb-8">
+      <div data-aos="fade-right" className="mt-64 bg-primaryLight pb-8">
         <div className="container mx-auto flex py-2">
           <div className="-mb-8 whitespace-nowrap pr-4">
             <div className="flex h-full items-center gap-2 pr-12">
