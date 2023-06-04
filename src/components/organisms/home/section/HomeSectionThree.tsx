@@ -7,7 +7,7 @@ export const HomeSectionThree: React.FC = () => {
     <section>
       <div className="container mx-auto mt-52">
         {/* heading */}
-        <div className="flex w-full items-start justify-between space-y-4">
+        <div data-aos="fade-right" className="flex w-full items-start justify-between space-y-4">
           <div className="max-w-[773px] pt-2.5">
             <h3 className="text-5xl text-gray-700">
               Knowledge Is Powerful in Helping You to Improve Your Mental Health
@@ -26,7 +26,10 @@ export const HomeSectionThree: React.FC = () => {
         {/* Content */}
         <div className="mt-20">
           {/* first card */}
-          <div className="grid grid-cols-2 rounded-xl bg-primaryLight px-12 py-12">
+          <div
+            data-aos="fade-up"
+            className="grid grid-cols-2 rounded-xl bg-primaryLight px-12 py-12"
+          >
             {/* left */}
             <div className="pr-4">
               <h3 className="poppins text-4xl leading-normal">
@@ -55,7 +58,7 @@ export const HomeSectionThree: React.FC = () => {
           {/* second card */}
           <div className="mt-5 grid grid-cols-3 gap-5">
             {/* card loop */}
-            <div className="rounded-xl bg-primaryLight p-12">
+            <div data-aos="fade-left" className="rounded-xl bg-primaryLight p-12">
               <h3 className="poppins text-4xl leading-normal">Lorem ipsum dolor sit amet</h3>
               <div className="mt-10">
                 <picture>
@@ -67,7 +70,11 @@ export const HomeSectionThree: React.FC = () => {
                 </picture>
               </div>
             </div>
-            <div className="rounded-xl bg-primaryLight p-12">
+            <div
+              data-aos="fade-left"
+              data-aos-delay={100}
+              className="rounded-xl bg-primaryLight p-12"
+            >
               <h3 className="poppins text-4xl leading-normal">Lorem ipsum dolor sit amet</h3>
               <div className="mt-10">
                 <picture>
@@ -79,7 +86,11 @@ export const HomeSectionThree: React.FC = () => {
                 </picture>
               </div>
             </div>
-            <div className="rounded-xl bg-primaryLight p-12">
+            <div
+              data-aos="fade-left"
+              data-aos-delay={200}
+              className="rounded-xl bg-primaryLight p-12"
+            >
               <h3 className="poppins text-4xl leading-normal">Lorem ipsum dolor sit amet</h3>
               <div className="mt-10">
                 <picture>
