@@ -15,11 +15,11 @@ export const SliderTwo: React.FC = () => {
     },
     {
       img: 'image/slider/slider-2.png',
-      title: 'Schizophrenia',
+      title: 'Depressions',
     },
     {
       img: 'image/slider/slider-3.png',
-      title: 'Schizophrenia',
+      title: 'Personal Meeting',
     },
   ])
 
